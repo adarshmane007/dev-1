@@ -8,5 +8,5 @@ def lambda_handler(event, context):
         InstanceType='t2.medium',
         KeyName='gcp',
         MaxCount=1,
-        MinCount=2
+        MinCount=5
     )
